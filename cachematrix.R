@@ -8,14 +8,15 @@
 ## the output (the inverse of the matrix).
 
 ## makeCacheMatrix is a helper function used to
-## assign the matrix object to its cache (x).
+## assign the matrix object and its inverse to 
+# its cache and retreive them.
 
 ## cacheSolve is a function that returns the
 ## inverse of the input matrix, either as a
 ## first-time calculated value or cached result.
 
 ## Note that these two functions have to be 
-## called in tandem in order to obtain the 
+## called in sequence in order to obtain the 
 ## correct result. That is, in order for
 ## cacheSolve to return the correct result, 
 ## makeCacheMatrix has to be called first.
